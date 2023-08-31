@@ -12,12 +12,11 @@ html {
 }
 
 h1 {
+  margin: -10px;
   color: white;
   font-size: 70px;
   text-align: center;
   padding-top: 300px;
-  margin-top: 0px;
-  margin-left: 0px;
   background-image: url(../images/apple-pie.jpg);
   background-size: cover;
   height: 700px;
@@ -26,6 +25,7 @@ h1 {
 }
 
 .presentation {
+  display: block;
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -33,23 +33,17 @@ h1 {
   margin: 50px;
 }
 
+.receta,
 .indicaciones {
-  height: 80px;
-  margin-left: 370px;
-  margin-bottom: 20px;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.receta {
-  height: 90px;
-  margin-left: 370px;
-}
-
+ul,
+.Ingredients-section,
 .Ingredients-section {
-  margin: 50px;
-}
-
-ul {
   margin: 50px;
   padding: 0px;
   font-weight: lighter;
@@ -63,7 +57,3 @@ body {
 footer {
   text-align: center;
 }
-
-/* STYLES */
-
-/* Write your CSS below */
